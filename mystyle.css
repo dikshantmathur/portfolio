@@ -81,6 +81,7 @@ background: #111;
 #About img
 {
 	filter: grayscale(1);
+	margin-right: 12px;
 }
 #About img:hover
 {
@@ -95,12 +96,8 @@ background: #111;
 
 
 /* Media queries*/
-@media (max-width: 999px)
-{
-	
-}
-
-@media (max-width: 350px)
-{
-
-}
+@media screen and (max-width: 359px) {
+	.container #About img{
+	  padding: 1rem 3rem;
+	}
+  }
