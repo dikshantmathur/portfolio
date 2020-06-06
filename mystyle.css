@@ -1,0 +1,106 @@
+body
+{
+background: #111;
+}
+.container
+{
+	margin: 0 auto;
+	width: 95%;
+	max-width: 850px;
+}
+#nav-bar a
+{
+	margin-left: 40px;
+}
+#nav-bar a:hover
+{
+	color: white;
+}
+
+#About
+{
+	margin-top: -200px;
+}
+#About .fa
+{
+	color: white;
+}
+#About .fa:hover
+{
+	color: yellow;
+}
+#About span
+{
+	padding: 10px 20px 10px 20px;
+}
+#About hr
+{
+	border-width: 3px;
+	margin-top: 6px;
+}
+#Skills span
+{
+	padding: 10px 20px 10px 20px;
+}
+#Skills hr
+{
+	border-width: 3px;
+	margin-top: 7px;
+}
+
+#Experience span
+{
+	padding: 10px 20px 10px 20px;
+}
+#Experience hr
+{
+	border-width: 3px;
+	margin-top: 6px;
+}
+#Experience .card
+{
+	border-top: 05px solid red;
+}
+#Contact span
+{
+	padding: 10px 20px 10px 20px;
+}
+#Contact hr
+{
+	border-width: 3px;
+	margin-top: 6px;
+}
+.fa
+{
+	color: red;
+}
+#Experience p
+{
+	font-size: 16px;
+}
+#About img
+{
+	filter: grayscale(1);
+}
+#About img:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+.table
+{
+	width: 25%;
+}
+
+
+
+/* Media queries*/
+@media (max-width: 999px)
+{
+	
+}
+
+@media (max-width: 350px)
+{
+
+}
